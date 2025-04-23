@@ -2,6 +2,10 @@ export interface WeatherResponse {
     city: {
         name: string,
         country: string;
+        coord?: {
+            lat: number;
+            lon: number;
+        };
     };
     list: WeatherForecastItem[];
 }
@@ -13,6 +17,7 @@ export interface WeatherForecastItem {
         humidity: number;
         temp_min: number;
         temp_max: number;
+        pressure: number;
     };
     weather: {
         id: number;
@@ -20,6 +25,13 @@ export interface WeatherForecastItem {
         description: string;
         icon: string;
     }[];
+    wind?: {
+        speed: number;
+        deg: number;
+    };
+    clouds?: {
+        all:number;
+    };
     dt_txt: string;
 }
 
