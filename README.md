@@ -102,7 +102,6 @@ npm install
 
 ```bash
 NEXT_PUBLIC_OPENWEATHERMAP_API_KEY=your_openweathermap_api_key
-NEXT_PUBLIC_UNSPLASH_ACCESS_KEY=your_unsplash_access_key
 ```
 
 4. รันโปรเจกต์:
@@ -110,3 +109,7 @@ NEXT_PUBLIC_UNSPLASH_ACCESS_KEY=your_unsplash_access_key
 ```bash
 npm run dev
 ```
+
+## License
+
+This project is licensed under [nnackpt](https://github.com/nnackpt) License.
